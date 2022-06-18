@@ -3,224 +3,97 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" href="css/booki.css">
+        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/booki_tablette.css">
         <link rel="stylesheet" href="css/booki_mobile.css">
         <link rel="stylesheet" href="css/normalize.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">  
         <script src="https://kit.fontawesome.com/8c5c0e394a.js" crossorigin="anonymous"></script>
         <title>Booki</title>
     </head>
-
     <body>
-        <div id="Page">
-            <header>
-                <div class="logoBooki">
-                    <img src="assets/logo/Booki.png" alt="Booki logo"/> 
+
+        <div id="blocPage">        
+            <!-- header -->
+            <header class="disCB">
+                <div class="logoBooki dis">
+                    <img src="assets/logo/Booki.png" alt="Logo Booki" width="110px"/> 
                 </div>
                 <nav>
-                    <ul>
-                        <li><a href="#Heberg">Hébergements</a></li>
-                        <li><a href="#Activ">Activités</a></li>
+                    <ul class="dis">
+                        <li><a href="#hebergement" class="black disC ligne">Hébergements</a></li>
+                        <li><a href="#marseille" class="black disC ligne">Activités</a></li>
                     </ul>
                 </nav>
             </header>
-            <section>
-                <div class="Trouver">
+            <!--Section recherches-->
+            <section id="Recherches">
+                <div class="searchTitle">   
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
-                    <div class="Barre">
-                        <form method="post" action="Fictif.php">
-                            <label for="recherche"><i class="fa-solid fa-location-dot"></i></label>         
-                            <input type="search" name="recherche" id="recherche" placeholder="Marseille, France" size="23" maxlength="150" />
-                            <input type="button" value="Rechercher" disabled>
-                        </form>
-                    </div>
-                    <div class="Filtres">
-                        <form method="post" action="Fictif.php">
-                            <h3>Filtre</h3>
-                            <input type="checkbox" name="economique" id="filtre">
-                            <label for="filtre"><span><i class="fa-solid fa-money-bill-wave"></i></span><span>Économique</span></label>
-                            <input type="checkbox" name="familial" id="familial">
-                            <label for="familial"><span><i class="fa-solid fa-child-reaching"></i></span><span>Familial</span></label>
-                            <input type="checkbox" name="romantique" id="romantique">
-                            <label for="romantique"><span><i class="fa-solid fa-heart"></i></span><span>Romantique</span></label>
-                            <input type="checkbox" name="chien" id="chien">
-                            <label for="chien"><span><i class="fa-solid fa-dog"></i></span><span>Animaux autorisés</span></label>
-                        </form>
-                    </div>
-                    <p><i class="fa-solid fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
+                <!-- Barre de recherche -->
+                <div class="formSearch">
+                    <form method="post" action="Fictif.php">
+                        <label for="recherche">
+                            <span class="iconeMap"><i class="fa-solid fa-location-dot fa-lg"></i></span>        
+                            <input class="coText" style="border:0px" type="search" name="q" id="recherche" placeholder="Marseille, France" size="20" maxlength="150" />
+                        </label>
+                        <button>
+                            <span class="search">Rechercher</span>
+                            <span class="loupe"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        </button>
+                    </form>
+                </div>
+                <!-- Filtres -->
+                <div class="Filtres">
+                    <h3>Filtres</h3>
+                    <form method="post" action="Fictif.php"> 
+                        <input type="checkbox" name="economique" id="economique">
+                        <label for="economique">
+                            <span class="iconeFiltre">
+                                <i class="fa-solid fa-money-bill-wave fa-lg"></i>
+                            </span>
+                                <span class="style">Économique</span>
+                        </label>
+
+                        <input type="checkbox" name="familial" id="familial">
+                        <label for="familial">
+                            <span class="iconeFiltre">
+                                <i class="fa-solid fa-child-reaching fa-lg"></i>
+                            </span>
+                            <span class="style">Familial</span>
+                        </label>
+
+                        <input type="checkbox" name="romantique" id="romantique">
+                        <label for="romantique">
+                            <span class="iconeFiltre">
+                                <i class="fa-solid fa-heart fa-lg"></i>
+                            </span>
+                            <span class="style">Romantique</span>
+                        </label>
+
+                        <input type="checkbox" name="chien" id="chien">
+                        <label for="chien">
+                            <span class="iconeFiltre">
+                                <i class="fa-solid fa-dog fa-lg"></i>
+                            </span>
+                            <span class="style">Animaux autorisés</span>
+                        </label>
+                    </form>
+                </div>
+                <!-- Petit point info -->
+                <div class="infos">
+                    <a href="#" class="iconeInfo"><i class="fa-solid fa-info"></i></a>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>  
             </section>
-            <section>
-                <div class="Hbg">
-                    <h2 id="Heberg">Hébergements à Marseille</h2>
-                    <div class="Marseille">
-                        <a href="#"><img src="assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Chambre d'auberge">
-                        <span>Auberge La Cannebière</span>
-                        <span>Nuit à partir de 25€</span></a>
-                        <div class="Etoiles">    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="Marseille">
-                        <a href="#"><img src="assets/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Chambre d'hôtel">
-                        <span>Hôtel du port</span>
-                        <span>Nuit à partir de 52€</span></a> 
-                        <div class="Etoiles">    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>    
-                    </div>
-                    <div class="Marseille">
-                        <a href="#"><img src="assets/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Chambre d'hôtel">
-                        <span>Hôtel les Mouettes</span>
-                        <span>Nuit à partir de 76€</span></a>
-                        <div class="Etoiles">    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    <div class="Marseille">
-                        <a href="#"><img src="assets/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Chambre d'hôtel">
-                        <span>Hôtel de la mer</span>
-                        <span>Nuit à partir de 46€</span></a>
-                        <div class="Etoiles">    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="Marseille">
-                        <a href="#"><img src="assets/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Chambre d'auberge">
-                        <span>Auberge Le Panier</span>
-                        <span>Nuit à partir de 23€</span></a>
-                        <div class="Etoiles">    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="Marseille">
-                        <a href="#"><img src="assets/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chambre d'hôtel">
-                        <span>Hôtel chez Amina</span>
-                        <span>Nuit à partir de 96€</span></a>
-                        <div class="Etoiles">    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <div class="Pop">
-                    <h2>Les plus populaires</h2>
-                    <i class="fa-solid fa-star"></i>
-                    <div class="Populaire">
-                        <a href="#"><img src="assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Chambre d'hôtel">
-                        <span>Hôtel le soleil du matin</span>
-                        <span>Nuit à partir de 128€</span></a>
-                        <div class="Etoiles">    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="Populaire">
-                        <a href="#"><img src="assets/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre d'hôte">
-                        <span>Au cœur de l'eau Chambres d'hôtes</span>
-                        <span>Nuit à partir de 71€</span></a>
-                        <div class="Etoiles">    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                    <div class="Populaire">
-                        <a href="#"><img src="assets/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre d'hôtel">
-                        <span>Hôtel tout bleu et blanc</span>
-                        <span>Nuit à partir de 68€</span></a>
-                        <div class="Etoiles">    
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                    </div>
-                </div>    
-            </section>
-            <section>
-                <div class="Act">
-                    <h2 id="Activ">Activités à Marseille</h2>
-                    <div class="Activite"> 
-                        <a href="#"><img src="assets/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Le port de Marseille">
-                        <span>Vieux Port</span></a>
-                    </div>
-                    <div class="Fort">
-                        <a href="#"><img src="assets/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
-                        <span>Fort de Pomègues</span></a>
-                    </div>
-                    <div class="Frioul">
-                        <a href="#"><img src="assets/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Îles du Frioul">
-                        <span>Îles du Frioul</span></a>
-                    </div>
-                    <div class="Activite">
-                        <a href="#"><img src="assets/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
-                        <span>Parc National des Calanques</span></a>
-                    </div>
-                    <div class="Dame">
-                        <a href="#"><img src="assets/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
-                        <span>Notre-Dame-de-la-Garde</span></a>
-                    </div>
-                    <div class="Parc">
-                        <a href="#"><img src="assets/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Parc Longchamp">
-                        <span>Parc Longchamp</span></a>
-                    </div>
-                </div>
-            </section>
-            <footer>
-                <div class="CGV">
-                    <h3>A propos</h3>
-                    <ul>
-                        <li><a href="#">Fonctionnement du site</a></li>
-                        <li><a href="#">Conditions générales de vente</a></li>
-                        <li><a href="#">Données et confidentialité</a></li>
-                    </ul>
-                </div>
-                <div class="Charte">
-                    <h3>Nos Hébergements</h3>
-                    <ul>
-                        <li><a href="#">Charte qualité</a></li>
-                        <li><a href="#">Soumettre votre hôtel</a></li>
-                    </ul>
-                </div>
-                <div class="Aide">
-                    <h3>Assistance</h3>
-                    <ul>
-                        <li><a href="#">Centre d'aide</a></li>
-                        <li><a href="#">Nous contacter</a></li>
-                    </ul>
-                </div>
-            </footer>
         </div>
+
     </body>
+</html>

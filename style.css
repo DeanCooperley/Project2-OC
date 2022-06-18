@@ -1,0 +1,109 @@
+/*Propriété CSS box-sizing & polices*/
+*{
+    box-sizing: border-box;
+}
+
+/*Intégration de la police*/
+/*@font-face{
+    font-family: 'Raleway', sans-serif;
+    src: url('Raleway_google_fonts/static/Raleway-Regular.ttf');
+    src: url('Raleway_google_fonts/static/Raleway-Bold.ttf');
+    font-weight: normal; 
+    font-style: normal;
+}*/
+
+/*Propriétés spécifiques de la page et à une partie des balises*/
+#blocPage{
+    max-width: 1920px;
+    margin: auto;
+    font-family: Raleway, sans-serif;
+}
+
+span, a{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*Couleurs principales des textes et icônes*/
+.blue{
+    color: #0065FC;
+}
+
+.black{
+    color: black;
+}
+
+/*Classes génériques display*/
+.dis{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.disC{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.disB{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.disCB{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Partie header*/
+header{
+    width: 100%;
+    height: 120px;
+}
+
+.logoBooki{
+    margin-left: 50px;
+}
+
+/*Navigation*/
+header nav a{
+    height: 100px; /*une hauteur pour éloigner la barre apparaissant au survole*/
+    margin-right: 50px;
+    position: relative;
+}
+
+/*Effets au survole de la navigation avec bordure*/
+header nav a:hover{
+    color: #0065FC;
+    font-weight: bold;
+}
+
+.ligne::before{
+    content: '';
+    display: block;
+    position: absolute;
+    border-top: 3px solid #0065FC;
+    transform: translateX(-50%) scaleX(0);
+    transition: transform 0.4s ease;
+    left: 50%;
+    width: 100%;
+    bottom: 114px;
+}
+
+.ligne:hover::before{
+    transform: translateX(-50%) scaleX(1);
+}
+
+
+
+/*Section recherches*/
