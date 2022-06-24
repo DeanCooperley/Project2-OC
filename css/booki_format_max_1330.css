@@ -1,0 +1,63 @@
+@media all and (max-device-width: 1330px)
+{
+
+    /*Propriétés spécifiques de la page et à une partie des balises*/
+    #blocPage{
+        max-width: 1330px;
+        margin: auto;
+    }
+
+    /*header*/
+    header{
+        width: 1145px;
+    }
+
+    /*Section "hebergement" et "pop"*/
+    .englobe{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 1015px;
+        /*padding-right: 60px;*/
+        /*background-color: #F2F2F2;*/
+    }
+
+    #hebergement{
+        width: 48%;
+    }
+
+    #pop{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 39%;
+        height: 1560px;
+    }
+
+    /*Section "marseille"*/
+    #marseille{
+        width: 1015px;
+    }
+
+    .Act{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    
+    .column2{
+        width: 690px;
+        height: 215px;
+    }
+
+    .fort{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .dame{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+}

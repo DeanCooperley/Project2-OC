@@ -41,10 +41,6 @@ ul{
     list-style-type: none;
 }
 
-.pad{
-    padding-left: 50px;
-}
-
 /*Couleurs principales des textes et icônes*/
 .blue{
     color: #0065FC;
@@ -72,12 +68,6 @@ ul{
     justify-content: space-between;
 }
 
-.disA{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 .disCB{
     display: flex;
     flex-wrap: wrap;
@@ -92,16 +82,9 @@ ul{
     justify-content: center;
 }
 
-.disCA{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
 /*Partie header*/
 header{
-    width: 100%;
+    width: 95%;
     height: 120px;
 }
 
@@ -131,7 +114,7 @@ header nav a:hover{
     transform: translateX(-50%) scaleX(0);
     transition: transform 0.4s ease;
     left: 50%;
-    width: 160px;
+    width: 177px;
     bottom: 114px;
 }
 
@@ -147,7 +130,7 @@ header nav a:hover{
     transform: translateX(-50%) scaleX(0);
     transition: transform 0.4s ease;
     left: 50%;
-    width: 160px;
+    width: 138px;
     bottom: 114px;
 }
 
@@ -244,6 +227,7 @@ h1{
     border-radius: 25px;
     height: 50px;
     margin-right: 20px;
+    cursor: pointer;
 }
 
 /*Au survol des filtres*/
@@ -302,19 +286,20 @@ h1{
 /*Sections "hebergement" et "pop"*/
 .englobe{
     width: 100%;
-    height: 625px;
+    height: 700px;
     margin-bottom: 50px;
-    margin-left: 50px;
 }
 
 #hebergement{
     display: flex;
     flex-wrap: wrap;
-    width: 65%;
+    width: 60%;
     height: 100%;
     margin-right: 40px;
     background-color: #F2F2F2;
     border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .titreHeb{
@@ -328,16 +313,13 @@ h1{
 }
 
 .sixCards{
-    width: 90%;
+    width: 100%;
     height: 70%;
-    /*margin-right: 50px;*/
-    /*margin-left: 50px;*/
 }
 
 .vignette{
-    width: 250px;
-    height: 200px;
-    margin-right: 40px;
+    width: 30%;
+    height: 240px;
     margin-bottom: 40px;
     background-color: #fff;
     border-radius: 25px;
@@ -346,10 +328,8 @@ h1{
 }
 
 .vignette .cadre{
-    /*display: flex;
-    flex-wrap: wrap;*/
     width: 100%;
-    height: 115px;
+    height: 140px;
 }
 
 .cadre img{
@@ -366,7 +346,8 @@ h1{
 .textCadre{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    width: 70%;
+    height: 80px;
     color: black;
     padding-top: 10px;
     padding-left: 10px;
@@ -404,7 +385,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 25%;
+    width: 28%;
     height: 100%;
     background-color: #F2F2F2;
     border-radius: 20px;
@@ -416,7 +397,6 @@ h1{
 
 .titlePop{
     width: 100%;
-    height: 93px;
     margin-right: 40px;
     margin-left: 40px;
     font-size: 20px;
@@ -425,15 +405,13 @@ h1{
 .threePop{
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: space-between;*/
     justify-content: space-around;
     height: 85%;
-    /*margin-left: 40px;*/
 }
 
 .populaire{
-    height: 140px;
-    width: 330px;
+    height: 160px;
+    width: 85%;
     background-color: #fff;
     margin-bottom: 40px;
     border-radius: 25px;
@@ -452,7 +430,7 @@ h1{
 }
 
 .textePop{
-    width: 50%;
+    width: 40%;
 }
 
 .hostelPop{
@@ -478,8 +456,7 @@ h1{
 #marseille{
     display: flex;
     flex-wrap: wrap;
-    width: 92%;
-    margin-left: 50px;
+    width: 90%;
     margin-bottom: 50px;
     background-color: #fff;
 }
@@ -491,7 +468,6 @@ h1{
 
 .titleMar{
     width: 100%;
-    height: 93px;
     font-size: 20px;
 }
 
@@ -504,57 +480,57 @@ h1{
 }
 
 .column1, .column2{
-    width: 20%;
-    height: 450px;
+    width: 23%;
+    height: 500px;
 }
 
 /*column1*/ 
 .column1 .cadre{
     width: 100%;
-    height: 390px;
+    height: 440px;
 }
 
 /*column2*/
 .fort{
     width: 100%;
-    height: 240px;
+    height: 250px;
     margin-bottom: 40px;
 }
 
 .fort .cadre{
     width: 100%;
-    height: 180px;
+    height: 190px;
 }
 
 .frioul{
     width: 100%;
-    height: 168px;
+    height: 208px;
 }
 
 .frioul .cadre{
     width: 100%;
-    height: 108px;
+    height: 148px;
 }
 
 .long{
     width: 100%;
-    height: 220px;
+    height: 238px;
 }
 
 .long .cadre{
     width: 100%;
-    height: 160px;
+    height: 178px;
 }
 
 .dame{
     width: 100%;
-    height: 190px;
+    height: 220px;
     margin-bottom: 40px;
 }
 
 .dame .cadre{
     width: 100%;
-    height: 130px;
+    height: 160px;
 }
 
 /*Légendes - column1 & 2*/
@@ -592,8 +568,12 @@ footer a{
     color: black;
 }
 
+.condition{
+    width: 70%;
+}
+
 .cgv, .charte, .aide{
-    margin-right: 400px;
+    /*margin-right: 350px;*/
     margin-top: 20px;
 }
 
