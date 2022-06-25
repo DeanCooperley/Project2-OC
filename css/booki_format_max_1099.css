@@ -1,0 +1,19 @@
+@media all and (max-device-width: 1099px)
+{
+
+    /*Section "englobe"*/
+    #hebergement{
+        width: 47%;
+        padding-right: 0;
+    }
+
+     .sixCards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    }
+
+    .vignette{
+        width: 80%;
+    }
+}

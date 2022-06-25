@@ -1,0 +1,22 @@
+@media all and (max-device-width: 1294px)
+{
+    /*header*/
+    header{
+        width: 92%;
+    }
+    
+    /*Section "englobe"*/
+    #hebergement{
+        width: 52%;
+    }
+
+    #pop{
+        width: 33%;
+    }
+
+    /*Section "marseille"*/
+    #marseille{
+        width: 88%;
+    }
+
+}

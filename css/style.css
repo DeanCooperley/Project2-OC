@@ -84,7 +84,7 @@ ul{
 
 /*Partie header*/
 header{
-    width: 95%;
+    width: 94%;
     height: 120px;
 }
 
@@ -286,7 +286,7 @@ h1{
 /*Sections "hebergement" et "pop"*/
 .englobe{
     width: 100%;
-    height: 700px;
+    height: 750px;
     margin-bottom: 50px;
 }
 
@@ -303,12 +303,8 @@ h1{
 }
 
 .titreHeb{
-    margin-left: 40px;
     width: 100%;
     height: 15%;
-}
-
-.titreHeb{
     font-size: 20px;
 }
 
@@ -344,8 +340,6 @@ h1{
 }
 
 .textCadre{
-    display: flex;
-    flex-wrap: wrap;
     width: 70%;
     height: 80px;
     color: black;
@@ -457,6 +451,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     width: 90%;
+    height: 600px;
     margin-bottom: 50px;
     background-color: #fff;
 }
@@ -550,7 +545,6 @@ footer{
     height: 200px;
     width: 100%;
     background-color: #F2F2F2;
-    padding-left: 50px;
 }
 
 footer ul{
