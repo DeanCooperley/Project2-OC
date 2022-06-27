@@ -7,14 +7,6 @@
         height: auto;
         margin-bottom: 40px;
     }
-    
-    #hebergement:nth-child(1){
-        order: 2;
-    }
-
-    #pop:nth-child(2){
-        order: 1;
-    }
 
     #hebergement{
         width: 91%;
@@ -44,6 +36,7 @@
     /*Section "marseille"*/
     #marseille{
         height: auto;
+        padding-left: 40px;
     }
 
     .titleMar{
@@ -52,7 +45,7 @@
     
     .Act{
         width: 98%;
-        height: 90%; 
+        height: 90%;
     }
 
     .column1{

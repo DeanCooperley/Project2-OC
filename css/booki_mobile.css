@@ -1,8 +1,6 @@
 @media all and (max-device-width: 768px)
 {
     
-    
-    
     .search{
         display: none;
     }
@@ -12,9 +10,90 @@
         align-items: center;
         justify-content: center;
     }
+    
+    /*header*/
+    header{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        border-bottom: 3px solid #f2f2f2;
+    }
 
-    .style{
+    .logoBooki{
+        justify-content: center;
+        margin-left: 70px;
+    }
+
+    header nav a{
+        width: 100%;
+        height: initial;
+        margin-right: 0;
+    }
+
+    header nav ul{
+        padding-left: 0;
+    }
+
+    .marginR{
+        padding-right: 70px;
+    }
+
+    /*Navigation au survol*/
+    .ligne::before{
+        content: '';
+        display: block;
+        position: absolute;
+        border-top: 3px solid #0065FC;
+        transform: translateX(-50%) scaleX(0);
+        transition: transform 0.4s ease;
+        left: 29%;
+        width: 100%;
+        top: 35px;
+    }
+    
+    .ligne:hover::before{
+        transform: translateX(-50%) scaleX(1);
+    }
+    
+    .ligneTwo::after{
+        content: '';
+        display: block;
+        position: absolute;
+        border-top: 3px solid #0065FC;
+        transform: translateX(-50%) scaleX(0);
+        transition: transform 0.4s ease;
+        left: 50%;
+        width: 130px;
+        top: 35px;
+    }
+    
+    .ligneTwo:hover::after{
+        transform: translateX(-50%) scaleX(1);
+    }
+
+    /*Section "recherches"*/
+    .Filtres label{
+        margin-right: 10px;
         font-size: medium;
     }
+
+    /*Section "englobe"*/
+    .englobe{
+        width: auto;
+    }
+
+    #pop{
+        width: auto;
+    }
+
+    #hebergement:nth-child(1){
+        order: 2;
+    }
+
+    #pop:nth-child(2){
+        order: 1;
+    }
+
     
 }
