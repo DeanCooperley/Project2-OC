@@ -4,7 +4,7 @@
     /*Section "englobe"*/
     .englobe{
         width: 100%;
-        height: 1100px;
+        height: auto;
         margin-bottom: 40px;
     }
     
@@ -17,41 +17,71 @@
     }
 
     #hebergement{
-        width: 90%;
+        width: 91%;
         background-color: #fff;
     }
 
     #pop{
         width: 87%;
-        height: 50%;
+        height: 45%;
         border-radius: 0;
+        padding-bottom: 40px;
     }
 
     .threePop{
-        width: 100%;
-
+        width: 100%
     }
 
     .populaire{
         width: 40%;
+        margin-bottom: 0;
+    }
+
+    .marge{
+        margin-bottom: 40px;
     }
 
     /*Section "marseille"*/
-    .column1, .column2{
-        width: 43%;
-        height: 250px;
+    #marseille{
+        height: auto;
+    }
+
+    .titleMar{
+        height: 120px;
+    }
+    
+    .Act{
+        width: 98%;
+        height: 90%; 
+    }
+
+    .column1{
+        width: 44%;
+        height: initial;
+    }
+
+    .column2{
+        display: contents;
+        width: 100%;
+        height: initial;
     }
 
     .column1 .cadre{
-        height: 150px;
+        height: 190px;
     }
 
-    .fort{
-        margin-bottom: 0;
+    .column2 .cadre{
+        height: 190px;
     }
 
-    .dame{
-        margin-bottom: 0;
+    .column1 a{
+        width: 100%;
+        height: 250px;
+    }
+
+    .column2 a{
+        width: 44%;
+        height: 250px;
     }
 
 }
