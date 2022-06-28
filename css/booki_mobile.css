@@ -14,14 +14,12 @@
     /*header*/
     header{
         flex-direction: column;
-        align-items: center;
         height: auto;
         width: 100%;
         border-bottom: 3px solid #f2f2f2;
     }
 
     .logoBooki{
-        justify-content: center;
         margin-left: 70px;
     }
 
@@ -73,20 +71,39 @@
     }
 
     /*Section "recherches"*/
+    #Recherches{
+        margin-left: 40px;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+    
     .Filtres label{
         margin-right: 10px;
         font-size: medium;
     }
 
-    /*Section "englobe"*/
+    /*Sections "englobe" + "hebergement" + "pop"*/
     .englobe{
-        width: auto;
+        margin-bottom: 0;
     }
 
+    /*"pop"*/
     #pop{
-        width: auto;
+        width: 100%;
     }
 
+    .threePop{
+        margin-left: 40px;
+    }
+
+    .populaire{
+        width: 350px;
+        height: 160px;
+    }
+    
+    /*"hebergement"*/
     #hebergement:nth-child(1){
         order: 2;
     }
@@ -95,5 +112,92 @@
         order: 1;
     }
 
+    #hebergement{
+        width: 100%;
+        padding: 0;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .titreHeb{
+        padding-left: 40px;    
+    }
+
+    .sixCards{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vignette{
+        width: 350px;
+        height: 230px;
+    }
+
+    .vignette .cadre{
+        height: 140px;
+    }
+
+    .textHeb{
+        height: 90px;
+    }
+
+    .etoilesHeb{
+        font-size: 12px;
+    }
+
+    /*Section "marseille"*/
+    #marseille{
+        width: 100%;
+    }
+
+    .titleMar{
+        height: initial;
+        margin-left: 40px;
+    }
+
+    .Act{
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .column1{
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .column2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .Act a{
+        width: 350px;
+        height: 220px;
+    } 
+
+    .Act .cadre{
+        height: 160px;
+    }
+
+    .port{
+        margin-bottom: 40px;
+    }
+
+    /*footer*/
+    footer{
+        justify-content: center;
+        height: initial;
+    }
     
+    .condition{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 40px;
+    }
+
 }

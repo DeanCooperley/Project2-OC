@@ -4,29 +4,31 @@
     /*Section "englobe"*/
     .englobe{
         width: 100%;
-        height: auto;
         margin-bottom: 40px;
     }
 
     #hebergement{
         width: 91%;
+        height: 100%;
         background-color: #fff;
+        margin-bottom: 40px;
     }
 
     #pop{
         width: 87%;
-        height: 45%;
         border-radius: 0;
-        padding-bottom: 40px;
     }
 
     .threePop{
-        width: 100%
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
     }
 
     .populaire{
         width: 40%;
-        margin-bottom: 0;
+        margin-right: 40px;
     }
 
     .marge{
@@ -36,7 +38,6 @@
     /*Section "marseille"*/
     #marseille{
         height: auto;
-        padding-left: 40px;
     }
 
     .titleMar{
