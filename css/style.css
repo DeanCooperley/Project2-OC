@@ -1,21 +1,3 @@
-/*Intégration de la police*/
-@font-face{
-    font-family: 'Raleway', sans-serif;
-    src: url('Raleway_google_fonts/static/Raleway-Regular.ttf');
-}
-
-@font-face{
-    font-family: 'Raleway', sans-serif;
-    src: url('Raleway_google_fonts/static/Raleway-Bold.ttf'); 
-    font-weight: bold;
-}
-
-@font-face{
-    font-family: 'Raleway', sans-serif;
-    src: url('Raleway_google_fonts/static/Raleway-ExtraBold.ttf'); 
-    font-weight: bolder;
-}
-
 /*Propriété CSS box-sizing & polices*/
 *{
     box-sizing: border-box;
@@ -89,6 +71,10 @@ header{
 
 .logoBooki{
     margin-left: 15px;
+}
+
+.logoBooki img{
+    width: 100px;
 }
 
 /*Navigation*/
