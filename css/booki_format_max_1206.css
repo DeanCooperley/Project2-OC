@@ -1,0 +1,20 @@
+@media all and (max-width: 1206px)
+{
+
+    #hebergement{
+        width: 52%;
+    }
+
+    .vignette{
+        width: 80%;
+    }
+
+    .textCadre{
+        width: 55%;
+    }
+
+    #pop{
+        width: 45%;
+    }
+
+}

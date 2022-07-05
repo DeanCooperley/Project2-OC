@@ -1,0 +1,12 @@
+@media all and (max-width: 1568px)
+{
+
+    #hebergement{
+        width: 66%;
+    }
+
+    #pop{
+        width: 31%;
+    }
+
+}

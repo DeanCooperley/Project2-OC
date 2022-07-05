@@ -1,0 +1,17 @@
+@media all and (max-width: 345px)
+
+{
+
+    .formSearch label{
+        font-size: 15px;
+    }
+
+    .formSearch button{
+        font-size: 15px;
+    }
+
+    .coText{
+        padding-left: 0;
+    }
+
+}

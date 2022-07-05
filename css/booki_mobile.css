@@ -15,12 +15,19 @@
     header{
         flex-direction: column;
         height: auto;
-        width: 100%;
         border-bottom: 3px solid #f2f2f2;
     }
 
     .logoBooki{
         margin-left: 70px;
+    }
+
+    .marginR{
+        margin-right: 70px;
+    }
+
+    .marginC{
+        margin-right: 40px; 
     }
 
     header nav a{
@@ -31,10 +38,6 @@
 
     header nav ul{
         padding-left: 0;
-    }
-
-    .marginR{
-        padding-right: 70px;
     }
 
     /*Navigation au survol*/
@@ -71,10 +74,6 @@
     }
 
     /*Section "recherches"*/
-    #Recherches{
-        margin-left: 40px;
-    }
-    
     h1{
         font-size: 25px;
     }
@@ -92,10 +91,8 @@
     /*"pop"*/
     #pop{
         width: 100%;
-    }
-
-    .threePop{
-        margin-left: 40px;
+        border-radius: 0;
+        padding: 0;
     }
 
     .populaire{
@@ -115,18 +112,12 @@
     #hebergement{
         width: 100%;
         padding: 0;
-        justify-content: center;
-        margin-right: 0;
-    }
-
-    .titreHeb{
-        padding-left: 40px;    
+        background-color: white;
+        margin-bottom: 0;
     }
 
     .sixCards{
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
+        justify-content: center;
     }
 
     .vignette{
@@ -138,43 +129,24 @@
         height: 140px;
     }
 
-    .textHeb{
-        height: 90px;
-    }
-
     .etoilesHeb{
         font-size: 12px;
     }
 
     /*Section "marseille"*/
     #marseille{
-        width: 100%;
+        margin-bottom: 0;
     }
-
+    
     .titleMar{
-        height: initial;
-        margin-left: 40px;
+        margin-left: 0;
     }
-
+    
     .Act{
-        justify-content: center;
-        width: 100%;
         height: 100%;
+        padding: 0;
     }
 
-    .column1{
-        justify-content: center;
-        width: 100%;
-        height: 100%;
-    }
-
-    .column2{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
- 
     .Act a{
         width: 350px;
         height: 220px;
@@ -184,8 +156,16 @@
         height: 160px;
     }
 
-    .port{
-        margin-bottom: 40px;
+    .column1{
+        justify-content: center;
+        width: 100%;
+    }
+
+    .column2{
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
     }
 
     /*footer*/

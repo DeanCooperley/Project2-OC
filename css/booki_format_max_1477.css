@@ -1,0 +1,16 @@
+@media all and (max-width: 1477px)
+{
+
+    #hebergement{
+        width: 62%;
+    }
+
+    .textCadre{
+        width: 80%;
+    }
+
+    #pop{
+        width: 35%;
+    }
+
+}

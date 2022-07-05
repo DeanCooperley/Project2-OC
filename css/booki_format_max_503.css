@@ -1,0 +1,22 @@
+@media all and (max-width: 503px)
+{   
+    #Recherches{
+        padding-left: 15px;
+    }
+
+    .englobe{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    #marseille{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    footer{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+}

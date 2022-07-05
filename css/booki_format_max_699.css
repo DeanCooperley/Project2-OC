@@ -1,8 +1,8 @@
 @media all and (max-width: 699px)
 {
 
-    .sixCards{
-        justify-content: center;
+    .column2{
+        margin-bottom: 40px;
     }
 
 }

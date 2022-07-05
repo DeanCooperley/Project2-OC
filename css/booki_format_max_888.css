@@ -1,0 +1,60 @@
+@media all and (max-width: 888px)
+{
+
+    .threePop{
+        justify-content: center;
+    }
+    
+    .populaire{
+        width: 65%;
+    }
+
+   /*Section "marseille*/
+   #marseille{
+    height: auto;
+   }
+
+   .titleMar{
+    margin-left: 50px;
+   }
+   
+   .Act{
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+   }
+   
+   .column1{
+    width: 65%;
+    height: 220px;
+    margin-bottom: 40px;
+   }
+
+   .column1 a{
+    width: 100%;
+    height: 100%;
+   }
+
+   .column1 .cadre{
+    height: 160px;
+   }
+
+   .column2{
+    width: 65%;
+    margin-bottom: 40px;
+   }
+
+   .column2 .cadre{
+    height: 160px;
+   }
+
+   footer{
+    padding-right: 60px;
+   }
+
+   .condition{
+    width: 100%;
+   }
+
+
+}

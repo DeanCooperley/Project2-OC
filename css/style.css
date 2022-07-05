@@ -1,3 +1,16 @@
+/*Insertion d'une nouvelle police*/
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 400;
+    src: url('Raleway_google_fonts/static/Raleway-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: 700;
+    src: url('Raleway_google_fonts/static/Raleway-Bold.ttf');
+}
+
 /*Propriété CSS box-sizing & polices*/
 *{
     box-sizing: border-box;
@@ -65,7 +78,7 @@ ul{
 
 /*Partie header*/
 header{
-    width: 94%;
+    width: 100%;
     height: 120px;
 }
 
@@ -189,24 +202,15 @@ h1{
 }
 
 .Filtres h3{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     margin-right: 30px;
     padding-top: 30px;
 }
 
 .Filtres form{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     margin-top: 30px; 
 }
 
 .Filtres label{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     position: relative;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
@@ -240,7 +244,6 @@ h1{
     background-color: #DEEBFF;
     color: #0065FC;
     border-radius: 25px;
-    width: 50px;
     margin-left: -3px;
 }
 
@@ -258,9 +261,6 @@ h1{
 }
 
 .iconeInfo{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 25px;
     height: 25px;
     border: 2px solid #F2F2F2;
@@ -272,31 +272,28 @@ h1{
 /*Sections "hebergement" et "pop"*/
 .englobe{
     width: 100%;
-    height: 750px;
+    height: auto;
     margin-bottom: 50px;
 }
 
 #hebergement{
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
-    height: 100%;
-    margin-right: 40px;
+    justify-content: space-between;
+    width: 67%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .titreHeb{
     width: 100%;
-    height: 15%;
     font-size: 20px;
 }
 
 .sixCards{
     width: 100%;
-    height: 70%;
 }
 
 .vignette{
@@ -307,6 +304,10 @@ h1{
     border-radius: 25px;
     padding: 5px;
     box-shadow: 1px 1px 19px rgb(202, 202, 202);
+}
+
+.vignette:hover{
+    box-shadow: 1px 1px 19px rgb(56, 56, 56);
 }
 
 .vignette .cadre{
@@ -326,7 +327,7 @@ h1{
 }
 
 .textCadre{
-    width: 70%;
+    width: 60%;
     height: 80px;
     color: black;
     padding-top: 10px;
@@ -350,8 +351,7 @@ h1{
 
 .plus{
     width: 100%;
-    height: 15%;
-    margin-left: 40px;
+    
 }
 
 .plus a{
@@ -365,8 +365,10 @@ h1{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 28%;
+    width: 30%;
     height: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
     background-color: #F2F2F2;
     border-radius: 20px;
 }
@@ -377,8 +379,6 @@ h1{
 
 .titlePop{
     width: 100%;
-    margin-right: 40px;
-    margin-left: 40px;
     font-size: 20px;
 }
 
@@ -388,12 +388,16 @@ h1{
 }
 
 .populaire{
-    height: 160px;
-    width: 85%;
+    height: 170px;
+    width: 100%;
     background-color: #fff;
     margin-bottom: 40px;
     border-radius: 25px;
     box-shadow: 1px 1px 19px rgb(202, 202, 202);
+}
+
+.populaire:hover{
+    box-shadow: 1px 1px 19px rgb(56, 56, 56);
 }
 
 .populaire .cadre{
@@ -434,7 +438,7 @@ h1{
 #marseille{
     display: flex;
     flex-wrap: wrap;
-    width: 90%;
+    width: 100%;
     height: 600px;
     margin-bottom: 50px;
     background-color: #fff;
@@ -443,6 +447,10 @@ h1{
 #marseille a{
     box-shadow: 1px 1px 19px rgb(202, 202, 202);
     border-radius: 25px;
+}
+
+#marseille a:hover{
+    box-shadow: 1px 1px 19px rgb(56, 56, 56);
 }
 
 .titleMar{
@@ -459,8 +467,9 @@ h1{
 }
 
 .column1, .column2{
-    width: 23%;
+    width: 22.5%;
     height: 500px;
+    border-radius: 25px;
 }
 
 /*column1*/ 
@@ -492,7 +501,7 @@ h1{
 }
 
 .long{
-    /*width: 100%;*/
+    width: 100%;
     height: 238px;
 }
 
@@ -551,7 +560,6 @@ footer a{
 }
 
 .cgv, .charte, .aide{
-    /*margin-right: 350px;*/
     margin-top: 20px;
 }
 
