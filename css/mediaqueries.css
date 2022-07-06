@@ -1,0 +1,517 @@
+@media all and (max-width: 1781px)
+{
+
+    .textCadre{
+        width: 70%;
+    }
+
+}
+
+@media all and (max-width: 1617px)
+{
+
+    .textePop{
+        width: 45%;
+    }
+
+}
+
+@media all and (max-width: 1555px)
+{
+
+    .textCadre{
+        width: 75%;
+    }
+
+}
+
+@media all and (max-width: 1474px)
+{
+
+    .textePop{
+        width: 50%;
+    }
+
+}
+
+@media all and (max-width: 1464px)
+{
+
+    .textCadre{
+        width: 85%;
+    }
+
+}
+
+@media all and (max-width: 1360px)
+{
+
+    .textePop{
+        width: 60%;
+    }
+
+}
+
+@media all and (max-width: 1315px)
+{
+
+    .textCadre{
+        width: 95%;
+    }
+
+    
+    /*"hebergement"*/
+    #hebergement:nth-child(1){
+        order: 2;
+        width: 100%;
+    }
+
+    .threePop {
+        justify-content: space-between;
+    }
+
+    #pop:nth-child(2){
+        order: 1;
+        width: 100%;
+       
+        margin-bottom: 15px;
+    }
+
+    .populaire{
+        width: 45%;
+    }
+    
+    .textePop{
+        width: 45%;
+    }
+
+    .textCadre span {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 1198px)
+{
+
+    #hebergement{
+        width: 65%;
+    }
+
+    .vignette{
+        width: 46%;
+    }
+
+    .vignette .cadre{
+        height: 120px;
+    }
+    
+    .textCadre{
+        width: 70%;
+    }
+
+    #pop{
+        width: 32%;
+    }
+
+}
+
+@media all and (max-width: 1115px)
+{
+
+    #hebergement{
+        width: 55%;
+        background-color: white;
+        padding: 0;
+    }
+
+    .sixCards{
+        justify-content: center;
+    }
+
+    .titreHeb{
+        margin-left: 50px;
+    }
+
+    .vignette{
+        width: 40%;
+    }
+
+    .vignette .cadre{
+        height: 130px;
+    }
+    
+    .textCadre{
+        width: 55%;
+    }
+
+    .plus{
+        margin-left: 65px;
+    }
+
+    #pop{
+        width: 42%;
+        border-radius: 0;
+    }
+
+    .populaire{
+        height: 160px;
+    }
+
+    #marseille{
+        height: auto;
+    }
+
+    .titleMar{
+        margin-left: 50px;
+    }
+
+   .column1{
+        width: 41%;
+        height: 220px;
+        margin-bottom: 40px;
+   }
+
+   .column1 a{
+        width: 100%;
+        height: 220px;
+   }
+
+   .column1 .cadre{
+        width: 100%;
+        height: 160px;
+   }
+
+   .column2{
+        display: contents;
+        width: 41%;
+   }
+
+   .column2 a{
+        width: 41%;
+        height: 220px;
+   }
+
+   .column2 .cadre{
+        width: 100%;
+        height: 160px;
+   }
+
+   .disB{
+        justify-content: space-evenly;
+   }
+
+   
+
+}
+
+@media all and (max-width: 992px)
+{
+
+    header,
+    footer,
+    #Recherches,
+    .englobe,
+    #marseille {
+        padding: 0 15px;
+    }
+
+    .sixCards {
+        padding: 0 50px;
+        justify-content: space-between;
+    }
+
+    .vignette,
+    .populaire {
+        width: 47%;
+    }
+
+    .condition {
+        width: 100%;
+        justify-content: space-between;
+        padding: 0 50px;
+    }
+
+}
+
+@media all and (max-width: 865px)
+{
+
+    header {
+        padding-left: 30px;
+    }
+    
+    #Recherches {
+        padding-left: 20px;
+    }
+
+    .textePop {
+        width: 50%;
+    }
+
+    #hebergement{
+        width: 100%;
+    }
+
+    .column1{
+        width: 44%;
+   }
+
+   .column2{
+        width: 44%;
+    }
+
+    .column2 a{
+        width: 44%;
+    }
+
+    .Filtres label{
+        margin-bottom: 15px;
+    }
+
+}
+
+@media all and (max-width: 768px)
+{
+
+    /*header*/
+    header{
+        padding: 0;
+        flex-direction: column;
+        height: auto;
+        border-bottom: 3px solid #f2f2f2;
+    }
+
+    .logoBooki{
+        margin-left: 70px;
+    }
+
+    .marginR{
+        margin-right: 70px;
+    }
+
+    header nav a{
+        width: 100%;
+        height: initial;
+        margin-right: 0;
+    }
+
+    header nav ul{
+        padding-left: 0;
+    }
+
+    /*Navigation au survol*/
+    .ligne::before {
+        content: '';
+        display: block;
+        position: absolute;
+        border-top: 3px solid #0065FC;
+        transform: translateX(-50%) scaleX(0);
+        transition: transform 0.4s ease;
+        left: 29%;
+        width: 100%;
+        top: 35px;
+    }
+    
+    .ligne:hover::before {
+        transform: translateX(-50%) scaleX(1);
+    }
+    
+    .ligneTwo::after {
+        content: '';
+        display: block;
+        position: absolute;
+        border-top: 3px solid #0065FC;
+        transform: translateX(-50%) scaleX(0);
+        transition: transform 0.4s ease;
+        left: 50%;
+        width: 130px;
+        top: 35px;
+    }
+    
+    .ligneTwo:hover::after {
+        transform: translateX(-50%) scaleX(1);
+    }
+
+    /*Section "recherches"*/
+    #Recherches {
+        padding-left: 25px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+    
+    .Filtres label {
+        margin-right: 10px;
+        font-size: medium;
+    }
+
+    /*Sections "englobe" + "hebergement" + "pop"*/
+    .englobe {
+        margin-bottom: 0;
+    }
+
+    /*"pop"*/
+    .populaire {
+        width: 350px;
+        height: 160px;
+    }
+    
+
+    #hebergement {
+        width: 100%;
+        padding: 0;
+        background-color: white;
+        margin-bottom: 0;
+    }
+
+    .textCadre {
+        width: 60%;
+    }
+
+    .etoilesHeb {
+        font-size: 12px;
+    }
+
+    /*"marseille"*/
+    #marseille {
+        margin-bottom: 0;
+    }
+
+    /*footer*/
+    footer {
+        height: initial;
+    }
+    
+    .condition {
+        width: 100%;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .disB {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .sixCards {
+        padding: 0 20px;
+    }
+
+    .column1,
+    .column2,
+    .column2 a {
+        width: 47%;
+    }
+
+    .vignette, .populaire {
+        width: 70%;
+        margin: 20px auto;
+    }
+
+}
+
+@media all and (max-width: 600px)
+{
+    
+    #pop {
+        padding: 0;
+    }
+
+    .textePop {
+        width: 30%;
+    }
+    
+    .populaire {
+        width: 100%;
+    }
+
+    .sixCards {
+        padding: 0;
+    }
+
+    .vignette {
+        width: 100%;
+    }
+
+    .titreHeb,
+    .titleMar,
+    .plus {
+        margin: 0;
+    }
+
+    .Act {
+        padding: 0;
+    }
+
+    .long,
+    .frioul {
+        margin-bottom: 40px;
+    }
+
+    .column1,
+    .column2, 
+    .column2 a {
+        width: 100%;
+    }
+
+}
+
+@media all and (max-width: 503px)
+{
+
+    .textePop {
+        width: 45%;
+    }
+
+}
+
+@media all and (max-width: 437px)
+{
+
+    .search {
+        display: none;
+    }
+
+    .loupe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media all and (max-width: 367px)
+{
+
+    .textCadre {
+        width: 80%;
+    }
+
+}
+
+@media all and (max-width: 355px)
+{
+
+    .formSearch label,
+    .formSearch button,
+    .coText {
+        font-size: 15px;
+    }
+
+    .coText {
+        padding-left: 0;
+    }
+
+}
+
+@media all and (max-width: 348px)
+{
+
+   .textePop {
+        width: 60%;
+   }
+
+}
