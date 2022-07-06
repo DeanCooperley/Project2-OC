@@ -12,64 +12,64 @@
 }
 
 /*Propriété CSS box-sizing & polices*/
-*{
+* {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
 
 /*Propriétés spécifiques de la page et à une partie des balises*/
-#blocPage{
+#blocPage {
     max-width: 1920px;
     margin: auto;
 }
 
-span, a{
+span, a {
     display: block;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
 /*Couleurs principales des textes et icônes*/
-.blue{
+.blue {
     color: #0065FC;
 }
 
-.grey{
+.grey {
     color: #F2F2F2;
 }
 
 /*Classes génériques display*/
-.dis{
+.dis {
     display: flex;
     flex-wrap: wrap;
 }
 
-.disC{
+.disC {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.disB{
+.disB {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.disCB{
+.disCB {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
-.disCC{   
+.disCC {   
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -77,22 +77,22 @@ ul{
 }
 
 /*Partie header*/
-header{
+header {
     width: 100%;
     height: 120px;
     padding: 0 40px;
 }
 
-.logoBooki{
+.logoBooki {
     margin-left: 15px;
 }
 
-.logoBooki img{
+.logoBooki img {
     width: 100px;
 }
 
 /*Navigation*/
-header nav a{
+header nav a {
     height: 100px; /*une hauteur pour éloigner la barre apparaissant au survole*/
     margin-right: 70px;
     position: relative;
@@ -100,12 +100,12 @@ header nav a{
 }
 
 /*Effets au survol de la navigation avec bordure*/
-header nav a:hover{
+header nav a:hover {
     color: #0065FC;
     font-weight: bold;
 }
 
-.ligne::before{
+.ligne::before {
     content: '';
     display: block;
     position: absolute;
@@ -117,11 +117,11 @@ header nav a:hover{
     bottom: 114px;
 }
 
-.ligne:hover::before{
+.ligne:hover::before {
     transform: translateX(-50%) scaleX(1);
 }
 
-.ligneTwo::after{
+.ligneTwo::after {
     content: '';
     display: block;
     position: absolute;
@@ -133,29 +133,29 @@ header nav a:hover{
     bottom: 114px;
 }
 
-.ligneTwo:hover::after{
+.ligneTwo:hover::after {
     transform: translateX(-50%) scaleX(1);
 }
 
 /*Section recherches*/
-#Recherches{
+#Recherches {
     width: 100%;
     padding: 0 40px;
 }
 
-h1{
+h1 {
     font-size: 22px;
     font-weight: 740;
 }
 
 /*Barre de recherche*/
-.formSearch label{
+.formSearch label {
     border-top: 1px solid #F2F2F2;
     border-bottom: 1px solid #F2F2F2;
     border-radius: 17px 0 0 17px;
 }
 
-.iconeMap{
+.iconeMap {
     width: 50px;
     height: 50px;
     background-color: #f2f2f2;
@@ -163,22 +163,22 @@ h1{
     cursor: pointer;
 }
 
-.coText{
+.coText {
     font-size: 18px;
     padding-left: 15px;
 }
 
-.coText::placeholder{
+.coText::placeholder {
     color: black;
     font-weight: bold;
 }
 
-.coText::-moz-placeholder{
+.coText::-moz-placeholder {
     font-weight: bold;
     opacity: 1;
 }
 
-.formSearch button{
+.formSearch button {
     height: 52px;
     border: none;
     background-color: #0065FC;
@@ -190,7 +190,7 @@ h1{
     cursor: pointer;
 }
 
-.loupe{
+.loupe {
     display: none;
 }
 
@@ -198,21 +198,21 @@ h1{
 
 /*Permet de "camoufler" l'input en le gardant opérationnel mais hors 
 écran (display:none est ignoré par les lecteurs d'écran et les navigateurs)*/
-.Filtres input{  
+.Filtres input {  
     position: absolute;
     left: -9999px;
 }
 
-.Filtres h3{
+.Filtres h3 {
     margin-right: 30px;
     padding-top: 30px;
 }
 
-.Filtres form{
+.Filtres form {
     margin-top: 30px; 
 }
 
-.Filtres label{
+.Filtres label {
     position: relative;
     border: 2px solid #F2F2F2;
     border-radius: 25px;
@@ -222,13 +222,13 @@ h1{
 }
 
 /*Au survol des filtres*/
-.Filtres label:hover{
+.Filtres label:hover {
     background-color: #F2F2F2;
     color: #0065FC;
 }
 
 /*Au survol avec les propriétés ::before et ::after*/
-.Filtres label:hover:before{
+.Filtres label:hover:before {
     content: '';
     position: absolute;
     width: 50px;
@@ -238,7 +238,7 @@ h1{
     background: rgba(126, 128, 159, 0.3);
 }
 
-.iconeFiltre{
+.iconeFiltre {
     height: 100%;
     width: 50px;
     margin-right: 15px;
@@ -249,20 +249,20 @@ h1{
     margin-left: -3px;
 }
 
-.style{
+.style {
     font-size: 18px;
     font-weight: bold;
     padding-right: 15px;
 }
 
 /*Point info*/
-.infos{
+.infos {
     display: flex;
     align-items: center;
     margin: 20px 0 20px 0;
 }
 
-.iconeInfo{
+.iconeInfo {
     width: 25px;
     height: 25px;
     border: 2px solid #F2F2F2;
@@ -272,13 +272,13 @@ h1{
 }
 
 /*Sections "hebergement" et "pop"*/
-.englobe{
+.englobe {
     width: 100%;
     height: auto;
     padding: 0 40px;
 }
 
-#hebergement{
+#hebergement {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -288,16 +288,16 @@ h1{
     padding: 0 40px 40px 40px;
 }
 
-.titreHeb{
+.titreHeb {
     width: 100%;
     font-size: 20px;
 }
 
-.sixCards{
+.sixCards {
     width: 100%;
 }
 
-.vignette{
+.vignette {
     width: 30%;
     margin-bottom: 40px;
     background-color: #fff;
@@ -306,27 +306,27 @@ h1{
     box-shadow: 1px 1px 19px rgb(202, 202, 202);
 }
 
-.vignette:hover{
+.vignette:hover {
     box-shadow: 1px 1px 19px rgb(56, 56, 56);
 }
 
-.vignette .cadre{
+.vignette .cadre {
     width: 100%;
     height: 140px;
 }
 
-.cadre img{
+.cadre img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     overflow: hidden;
 }
 
-.vignette .cadre img{
+.vignette .cadre img {
     border-radius: 20px 20px 0 0;
 }
 
-.textCadre{
+.textCadre {
     width: 60%;
     height: 80px;
     color: black;
@@ -334,34 +334,34 @@ h1{
     padding-left: 10px;
 }
 
-.hostel{
+.hostel {
     font-size: 16px;
     font-weight: bold;
 }
 
-.night{
+.night {
     font-size: 14px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.etoilesHeb{
+.etoilesHeb {
     font-size: 14px;
 }
 
-.plus{
+.plus {
     width: 100%;
     
 }
 
-.plus a{
+.plus a {
     color: black;
     font-weight: bold;
     font-size: 18px;
 }
 
 /*Section "pop"*/
-#pop{
+#pop {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -373,21 +373,21 @@ h1{
     border-radius: 20px;
 }
 
-#pop a{
+#pop a {
     color: black;
 }
 
-.titlePop{
+.titlePop {
     width: 100%;
     font-size: 20px;
 }
 
-.threePop{
+.threePop {
     justify-content: center;
     height: 85%;
 }
 
-.populaire{
+.populaire {
     height: 170px;
     width: 100%;
     background-color: #fff;
@@ -396,46 +396,46 @@ h1{
     box-shadow: 1px 1px 19px rgb(202, 202, 202);
 }
 
-.populaire:hover{
+.populaire:hover {
     box-shadow: 1px 1px 19px rgb(56, 56, 56);
 }
 
-.populaire .cadre{
+.populaire .cadre {
     width: 40%;
     height: 100%;
     border-radius: 25px;
     padding: 5px;
 }
 
-.populaire .cadre img{
+.populaire .cadre img {
     border-radius: 20px 0 0 20px;
 }
 
-.textePop{
+.textePop {
     width: 40%;
 }
 
-.hostelPop{
+.hostelPop {
     padding-top: 15px;
     padding-left: 15px;
     height: 30%;
     font-weight: bold;
 }
 
-.nightPop{
+.nightPop {
     padding-left: 15px;
     font-size: 14px;
     height: 30%;
 }
 
-.etoilesPop{
+.etoilesPop {
     padding-left: 15px;
     font-size: 14px;
     height: 30%;
 }
 
 /*Section "marseille"*/
-#marseille{
+#marseille {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -445,85 +445,85 @@ h1{
     padding: 0 40px;
 }
 
-#marseille a{
+#marseille a {
     box-shadow: 1px 1px 19px rgb(202, 202, 202);
     border-radius: 25px;
 }
 
-#marseille a:hover{
+#marseille a:hover {
     box-shadow: 1px 1px 19px rgb(56, 56, 56);
 }
 
-.titleMar{
+.titleMar {
     width: 100%;
     font-size: 20px;
 }
 
-.Act{
+.Act {
     width: 100%;
 }
 
-.Act .cadre img{
+.Act .cadre img {
     border-radius: 25px 25px 0 0;
 }
 
-.column1, .column2{
+.column1, .column2 {
     width: 22.5%;
     height: 500px;
     border-radius: 25px;
 }
 
 /*column1*/ 
-.column1 .cadre{
+.column1 .cadre {
     width: 100%;
     height: 440px;
 }
 
 /*column2*/
-.fort{
+.fort {
     width: 100%;
     height: 250px;
     margin-bottom: 40px;
 }
 
-.fort .cadre{
+.fort .cadre {
     width: 100%;
     height: 190px;
 }
 
-.frioul{
+.frioul {
     width: 100%;
     height: 208px;
 }
 
-.frioul .cadre{
+.frioul .cadre {
     width: 100%;
     height: 148px;
 }
 
-.long{
+.long {
     width: 100%;
     height: 238px;
 }
 
-.long .cadre{
+.long .cadre {
     width: 100%;
     height: 178px;
 }
 
-.dame{
+.dame {
     width: 100%;
     height: 220px;
     margin-bottom: 40px;
 }
 
-.dame .cadre{
+.dame .cadre {
     width: 100%;
     height: 160px;
 }
 
 /*Légendes - column1 & 2*/
-.textAc{
+.textAc {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -535,33 +535,33 @@ h1{
 }
 
 /*footer*/
-footer{
+footer {
     height: 200px;
     width: 100%;
     background-color: #F2F2F2;
     padding: 0 40px;
 }
 
-footer ul{
+footer ul {
     list-style-type: none;
     padding-left: 0;
 }
 
-footer li{
+footer li {
     padding-bottom: 15px;
     margin: 0;
 }
 
-footer a{
+footer a {
     text-decoration: none;
     color: black;
 }
 
-.condition{
+.condition {
     width: 70%;
 }
 
-.cgv, .charte, .aide{
+.cgv, .charte, .aide {
     margin-top: 20px;
 }
 

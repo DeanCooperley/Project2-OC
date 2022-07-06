@@ -204,6 +204,7 @@
 
 }
 
+/*Format "Tablette"*/
 @media all and (max-width: 992px)
 {
 
@@ -270,6 +271,7 @@
 
 }
 
+/*Format "Mobile"*/
 @media all and (max-width: 768px)
 {
 
@@ -289,13 +291,13 @@
         margin-right: 70px;
     }
 
-    header nav a{
+    header nav a {
         width: 100%;
         height: initial;
         margin-right: 0;
     }
 
-    header nav ul{
+    header nav ul {
         padding-left: 0;
     }
 
@@ -480,10 +482,18 @@
         display: none;
     }
 
+    .formSearch button {
+        border-radius: 17px;
+    }
+
     .loupe {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+
+    .style {
+        font-size: 15px;
     }
 
 }
