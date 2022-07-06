@@ -1,0 +1,34 @@
+@media all and (max-width: 320px)
+{
+
+    header {
+        padding: 0;
+    }
+
+    #Recherches {
+        padding-left: 10px;
+    }
+
+    .titlePop{
+        padding-left: 10px;
+    }
+
+    .titreHeb{
+        padding-left: 10px;
+    }
+
+    .plus{
+        padding-left: 10px;
+    }
+
+    .titleMar {
+        padding-left: 10px;
+    }
+
+    .condition{
+        padding-left: 10px;
+    }
+
+    
+
+}

@@ -1,0 +1,29 @@
+@media all and (max-width: 446px)
+{
+
+    .vignette{
+        width: 350px;
+    }
+
+    .textCadre{
+        width: 60%;
+    }
+
+    .column1{
+        width: 350px;
+   }
+
+   .column2{
+        width: 350px;
+}
+
+    .column2 a{
+        width: 350px;
+        margin-bottom: 40px;
+}
+
+    .cgv, .charte, .aide{
+        width: 100%;
+}
+
+}

@@ -1,0 +1,14 @@
+@media all and (max-width: 422px)
+{
+
+    .search{
+        display: none;
+    }
+
+    .loupe{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

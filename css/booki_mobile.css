@@ -1,18 +1,9 @@
 @media all and (max-width: 768px)
 {
-    
-    .search{
-        display: none;
-    }
 
-    .loupe{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
     /*header*/
     header{
+        padding: 0;
         flex-direction: column;
         height: auto;
         border-bottom: 3px solid #f2f2f2;
@@ -24,10 +15,6 @@
 
     .marginR{
         margin-right: 70px;
-    }
-
-    .marginC{
-        margin-right: 40px; 
     }
 
     header nav a{
@@ -74,6 +61,10 @@
     }
 
     /*Section "recherches"*/
+    #Recherches {
+        padding-left: 25px;
+    }
+
     h1{
         font-size: 25px;
     }
@@ -81,6 +72,7 @@
     .Filtres label{
         margin-right: 10px;
         font-size: medium;
+        margin-bottom: 15px;
     }
 
     /*Sections "englobe" + "hebergement" + "pop"*/
@@ -89,12 +81,6 @@
     }
 
     /*"pop"*/
-    #pop{
-        width: 100%;
-        border-radius: 0;
-        padding: 0;
-    }
-
     .populaire{
         width: 350px;
         height: 160px;
@@ -116,68 +102,29 @@
         margin-bottom: 0;
     }
 
-    .sixCards{
-        justify-content: center;
-    }
-
-    .vignette{
-        width: 350px;
-        height: 230px;
-    }
-
-    .vignette .cadre{
-        height: 140px;
+    .textCadre{
+        width: 60%;
     }
 
     .etoilesHeb{
         font-size: 12px;
     }
 
-    /*Section "marseille"*/
+    /*"marseille"*/
     #marseille{
-        margin-bottom: 0;
-    }
-    
-    .titleMar{
-        margin-left: 0;
-    }
-    
-    .Act{
-        height: 100%;
-        padding: 0;
-    }
-
-    .Act a{
-        width: 350px;
-        height: 220px;
-    } 
-
-    .Act .cadre{
-        height: 160px;
-    }
-
-    .column1{
-        justify-content: center;
-        width: 100%;
-    }
-
-    .column2{
-        justify-content: center;
-        width: 100%;
-        height: 100%;
         margin-bottom: 0;
     }
 
     /*footer*/
     footer{
-        justify-content: center;
         height: initial;
     }
     
     .condition{
-        flex-direction: column;
         width: 100%;
-        margin-left: 40px;
+        justify-content: space-between;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
 }
