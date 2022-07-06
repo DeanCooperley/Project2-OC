@@ -275,7 +275,6 @@ h1{
 .englobe{
     width: 100%;
     height: auto;
-    margin-bottom: 50px;
     padding: 0 40px;
 }
 
@@ -286,8 +285,7 @@ h1{
     width: 67%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 40px 40px 40px;
 }
 
 .titreHeb{

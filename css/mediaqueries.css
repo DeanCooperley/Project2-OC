@@ -1,7 +1,7 @@
 @media all and (max-width: 1781px)
 {
 
-    .textCadre{
+    .textCadre {
         width: 70%;
     }
 
@@ -10,7 +10,7 @@
 @media all and (max-width: 1617px)
 {
 
-    .textePop{
+    .textePop {
         width: 45%;
     }
 
@@ -19,7 +19,7 @@
 @media all and (max-width: 1555px)
 {
 
-    .textCadre{
+    .textCadre {
         width: 75%;
     }
 
@@ -28,7 +28,7 @@
 @media all and (max-width: 1474px)
 {
 
-    .textePop{
+    .textePop {
         width: 50%;
     }
 
@@ -37,7 +37,7 @@
 @media all and (max-width: 1464px)
 {
 
-    .textCadre{
+    .textCadre {
         width: 85%;
     }
 
@@ -46,7 +46,7 @@
 @media all and (max-width: 1360px)
 {
 
-    .textePop{
+    .textePop {
         width: 60%;
     }
 
@@ -61,7 +61,7 @@
 
     
     /*"hebergement"*/
-    #hebergement:nth-child(1){
+    #hebergement:nth-child(1) {
         order: 2;
         width: 100%;
     }
@@ -70,11 +70,10 @@
         justify-content: space-between;
     }
 
-    #pop:nth-child(2){
+    #pop:nth-child(2) {
         order: 1;
         width: 100%;
-       
-        margin-bottom: 15px;
+        margin-bottom: 40px;
     }
 
     .populaire{
@@ -94,11 +93,11 @@
 @media all and (max-width: 1198px)
 {
 
-    #hebergement{
+    #hebergement {
         width: 65%;
     }
 
-    .vignette{
+    .vignette {
         width: 46%;
     }
 
@@ -106,11 +105,11 @@
         height: 120px;
     }
     
-    .textCadre{
+    .textCadre {
         width: 70%;
     }
 
-    #pop{
+    #pop {
         width: 32%;
     }
 
@@ -119,85 +118,85 @@
 @media all and (max-width: 1115px)
 {
 
-    #hebergement{
+    #hebergement {
         width: 55%;
         background-color: white;
         padding: 0;
     }
 
-    .sixCards{
+    .sixCards {
         justify-content: center;
     }
 
-    .titreHeb{
+    .titreHeb {
         margin-left: 50px;
     }
 
-    .vignette{
+    .vignette {
         width: 40%;
     }
 
-    .vignette .cadre{
+    .vignette .cadre {
         height: 130px;
     }
     
-    .textCadre{
+    .textCadre {
         width: 55%;
     }
 
-    .plus{
+    .plus {
         margin-left: 65px;
     }
 
-    #pop{
+    #pop {
         width: 42%;
         border-radius: 0;
     }
 
-    .populaire{
+    .populaire {
         height: 160px;
     }
 
-    #marseille{
+    #marseille {
         height: auto;
     }
 
-    .titleMar{
+    .titleMar {
         margin-left: 50px;
     }
 
-   .column1{
+   .column1 {
         width: 41%;
         height: 220px;
         margin-bottom: 40px;
    }
 
-   .column1 a{
+   .column1 a {
         width: 100%;
         height: 220px;
    }
 
-   .column1 .cadre{
+   .column1 .cadre {
         width: 100%;
         height: 160px;
    }
 
-   .column2{
+   .column2 {
         display: contents;
         width: 41%;
    }
 
-   .column2 a{
+   .column2 a {
         width: 41%;
         height: 220px;
    }
 
-   .column2 .cadre{
+   .column2 .cadre {
         width: 100%;
         height: 160px;
    }
 
-   .disB{
+   .disB {
         justify-content: space-evenly;
    }
 
@@ -249,23 +248,23 @@
         width: 50%;
     }
 
-    #hebergement{
+    #hebergement {
         width: 100%;
     }
 
-    .column1{
+    .column1 {
         width: 44%;
    }
 
-   .column2{
+   .column2 {
         width: 44%;
     }
 
-    .column2 a{
+    .column2 a {
         width: 44%;
     }
 
-    .Filtres label{
+    .Filtres label {
         margin-bottom: 15px;
     }
 
@@ -275,18 +274,18 @@
 {
 
     /*header*/
-    header{
+    header {
         padding: 0;
         flex-direction: column;
         height: auto;
         border-bottom: 3px solid #f2f2f2;
     }
 
-    .logoBooki{
+    .logoBooki {
         margin-left: 70px;
     }
 
-    .marginR{
+    .marginR {
         margin-right: 70px;
     }
 
