@@ -457,6 +457,12 @@
         width: 100%;
     }
 
+    .cgv,
+    .charte,
+    .aide {
+        width: 100%;
+    }
+
 }
 
 @media all and (max-width: 503px)
