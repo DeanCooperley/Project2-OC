@@ -200,8 +200,6 @@
         justify-content: space-evenly;
    }
 
-   
-
 }
 
 /*Format "Tablette"*/
@@ -271,7 +269,6 @@
 
 }
 
-/*Format "Mobile"*/
 @media all and (max-width: 768px)
 {
 
@@ -414,6 +411,7 @@
 
 }
 
+/*Tout passe à 100%*/
 @media all and (max-width: 600px)
 {
     
